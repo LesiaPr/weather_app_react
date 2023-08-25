@@ -114,22 +114,28 @@ small {
   font-size: 1.5rem;
   font-weight: 900;
 }
-a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.75);
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
   padding: 0.25rem;
   color: #af3f1b;
+  font-size: 22px;
+  font-weight: 900;
 }
-
-a:hover {
+button:hover {
   color: rgba(0, 0, 0, 0.75);
+}
+a {
+  text-decoration: none;
+  color: #af3f1b;
 }
 
 .degrees {
   position: relative;
   top: -0.2rem;
 }
-h6 {
+h5 {
   text-align: center;
   padding: 0.5rem 0;
 }

@@ -78,13 +78,13 @@ function App() {
             <div className="temp-details">
               <h2 className="temp">{Math.round(data.main.temp)}°</h2>
               <div className="degree">
-                <a href="#" name="metric" onClick={handleUnit}>
+                <button name="metric" onClick={handleUnit}>
                   C
-                </a>
+                </button>
                 |
-                <a href="#" name="imperial" onClick={handleUnit}>
+                <button name="imperial" onClick={handleUnit}>
                   F
-                </a>
+                </button>
               </div>
             </div>
             <Slide direction="right" timeout={800} in={!loading}>
@@ -117,7 +117,7 @@ function App() {
           <CircularProgress />
         )}
       </div>
-      <h6>
+      <h5>
         <a
           href="https://github.com/LesiaPr/weather_app_react"
           target="_blank"
@@ -126,7 +126,7 @@ function App() {
           Open-source code
         </a>
         , by Lesia Pr.
-      </h6>
+      </h5>
     </div>
   );
 }
