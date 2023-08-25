@@ -118,7 +118,11 @@ function App() {
         )}
       </div>
       <h6>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/LesiaPr/weather_app_react"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open-source code
         </a>
         , by Lesia Pr.
