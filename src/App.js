@@ -116,16 +116,6 @@ function App() {
         ) : (
           <CircularProgress />
         )}
-        <h5>
-          <a
-            href="https://github.com/LesiaPr/weather_app_react"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Open-source code
-          </a>
-          , by Lesia Pr.
-        </h5>
       </div>
     </div>
   );
